@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TungShop.Data.Infastructure
 {
-    public class UnitOfwork : IUnitOfwork
+    public class UnitOfwork : IUnitOfWork
     {
         private readonly IDbFactory dbFactory;
         private TungShopDbContext dbContext;
@@ -23,7 +23,7 @@ namespace TungShop.Data.Infastructure
 
         public void Commit()
         {
-            dbContext.SaveChanges();
+            DbContext.SaveChanges();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TungShop.Data.Infastructure
 {
-    public interface IUnitOfwork
+    public interface IUnitOfWork
     {
         void Commit();
     }

@@ -52,7 +52,7 @@
     <Compile Include="Infastructure\Disposable.cs" />
     <Compile Include="Infastructure\IDbFactory.cs" />
     <Compile Include="Infastructure\IRepository.cs" />
-    <Compile Include="Infastructure\IUnitOfwork.cs" />
+    <Compile Include="Infastructure\IUnitOfWork.cs" />
     <Compile Include="Infastructure\RepositoryBase.cs" />
     <Compile Include="Infastructure\UnitOfwork.cs" />
     <Compile Include="Migrations\202105011631221_init.cs" />

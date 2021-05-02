@@ -11,9 +11,9 @@ namespace TungShop.Service
 {
     public interface IPostService
     {
-        void Add(Post post);
+        Post Add(Post post);
         void Update(Post post);
-        void Delete(int id);
+        Post Delete(int id);
         IEnumerable<Post> GetAll();
         IEnumerable<Post> GetAllPagin(int page, int pageSize, int totalRow);
         IEnumerable<Post> GetAllByCategoryPaging(int categoryId, int page, int pageSize, out int totalRow);
@@ -25,20 +25,20 @@ namespace TungShop.Service
     public class PostService : IPostService
     {
         IPostRepository _postRepository;
-        IUnitOfwork _unitOfwork;
-        public PostService(IPostRepository postRepository, IUnitOfwork unitOfwork)
+        IUnitOfWork _unitOfWork;
+        public PostService(IPostRepository postRepository, IUnitOfWork unitOfwork)
         {
             this._postRepository = postRepository;
-            this._unitOfwork = unitOfwork;
+            this._unitOfWork = unitOfwork;
         }
-        public void Add(Post post)
+        public Post Add(Post post)
         {
-            _postRepository.Add(post);
+           return _postRepository.Add(post);
         }
 
-        public void Delete(int id)
+        public Post Delete(int id)
         {
-            _postRepository.Delete(id);
+            return _postRepository.Delete(id);
         }
 
         public IEnumerable<Post> GetAll()
@@ -68,7 +68,7 @@ namespace TungShop.Service
 
         public void SaveChanges()
         {
-            _unitOfwork.Commit();
+            _unitOfWork.Commit();
         }
 
         public void Update(Post post)
