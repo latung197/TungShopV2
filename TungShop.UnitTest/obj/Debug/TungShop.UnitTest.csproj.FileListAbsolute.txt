@@ -59,3 +59,12 @@ D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Castle.Core.xml
 D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Moq.xml
 D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Microsoft.Owin.dll
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Owin.dll
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Microsoft.Owin.xml
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Autofac.dll
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Autofac.Integration.WebApi.dll
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Autofac.xml
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+D:\TongHopKienThuc\TungShop\TungShop.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml

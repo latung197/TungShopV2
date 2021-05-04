@@ -75,3 +75,15 @@ D:\TongHopKienThuc\TungShop\TungShop.Web\obj\Debug\TungShop.Web.csproj.CoreCompi
 D:\TongHopKienThuc\TungShop\TungShop.Web\obj\Debug\TungShop.Web.csproj.CopyComplete
 D:\TongHopKienThuc\TungShop\TungShop.Web\obj\Debug\TungShop.Web.dll
 D:\TongHopKienThuc\TungShop\TungShop.Web\obj\Debug\TungShop.Web.pdb
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Autofac.dll
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Autofac.Integration.Mvc.dll
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Autofac.Integration.WebApi.dll
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Microsoft.Owin.dll
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Owin.dll
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Autofac.xml
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Autofac.Integration.Mvc.xml
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Autofac.Integration.WebApi.xml
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Microsoft.Owin.xml
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TongHopKienThuc\TungShop\TungShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml

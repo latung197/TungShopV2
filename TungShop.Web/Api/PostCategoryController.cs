@@ -6,40 +6,121 @@ using System.Net.Http;
 using System.Web.Http;
 using TungShop.Web.infastructure.Code;
 using TungShop.Service;
+using TungShop.Model.Model;
 
 namespace TungShop.Web.Api
 {
+    [RoutePrefix("api/postcategory")]
     public class PostCategoryController : ApiControllerBase
     {
-        public PostCategoryController(IErrorService errorService) : base(errorService)
-        {
+        IPostCategoryService _postCategoryService;
 
-        }
-        // GET api/<controller>
-        public IEnumerable<string> Get()
+        public PostCategoryController(IErrorService errorService, IPostCategoryService postCategoryService) : base(errorService)
         {
-            return new string[] { "value1", "value2" };
+            this._postCategoryService = postCategoryService;
+        }
+        
+        public HttpResponseMessage Post(HttpRequestMessage requestMessage, PostCategory postCategory)
+        {
+            return CreateHttpResponse(requestMessage, () =>
+            {
+                HttpResponseMessage responseMessage = null;
+                if (ModelState.IsValid)
+                {
+                    requestMessage.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+                    PostCategory newPostCategory = new PostCategory();
+
+
+
+                }
+                return responseMessage;
+            });
         }
 
-        // GET api/<controller>/5
-        public string Get(int id)
+        public HttpResponseMessage Put(HttpRequestMessage requestMessage, PostCategory postCategory)
         {
-            return "value";
+            return CreateHttpResponse(requestMessage, () =>
+            {
+                HttpResponseMessage responseMessage = null;
+                if (ModelState.IsValid)
+                {
+                    requestMessage.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+                    PostCategory newPostCategory = new PostCategory();
+
+
+
+                }
+                return responseMessage;
+            });
         }
 
-        // POST api/<controller>
-        public void Post([FromBody]string value)
+        public HttpResponseMessage Delete(HttpRequestMessage requestMessage, PostCategory postCategory)
         {
+            return CreateHttpResponse(requestMessage, () =>
+            {
+                HttpResponseMessage responseMessage = null;
+                if (ModelState.IsValid)
+                {
+                    requestMessage.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+                    PostCategory newPostCategory = new PostCategory();
+
+
+
+                }
+                return responseMessage;
+            });
         }
 
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
+        public HttpResponseMessage Update(HttpRequestMessage requestMessage, PostCategory postCategory)
         {
+            return CreateHttpResponse(requestMessage, () =>
+            {
+                HttpResponseMessage responseMessage = null;
+                if (ModelState.IsValid)
+                {
+                    requestMessage.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+                    PostCategory newPostCategory = new PostCategory();
+
+
+
+                }
+                return responseMessage;
+            });
+        }
+        [Route("GetAll")]
+        public HttpResponseMessage GetAll(HttpRequestMessage requestMessage)
+        {
+            return CreateHttpResponse(requestMessage, () =>
+            {
+                HttpResponseMessage responseMessage = null;
+                if (ModelState.IsValid)
+                {
+                    requestMessage.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+
+                    var ListCategory = _postCategoryService.GetAll();
+                    responseMessage = requestMessage.CreateResponse(HttpStatusCode.Created, ListCategory);
+                }
+                return responseMessage;
+            });
         }
 
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
-        }
+
+
+
     }
 }

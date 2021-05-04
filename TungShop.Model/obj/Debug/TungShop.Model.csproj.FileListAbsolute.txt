@@ -9,4 +9,3 @@ D:\TongHopKienThuc\TungShop\TungShop.Model\obj\Debug\TungShop.Model.csproj.CoreC
 D:\TongHopKienThuc\TungShop\TungShop.Model\obj\Debug\TungShop.Model.csproj.CopyComplete
 D:\TongHopKienThuc\TungShop\TungShop.Model\obj\Debug\TungShop.Model.dll
 D:\TongHopKienThuc\TungShop\TungShop.Model\obj\Debug\TungShop.Model.pdb
-D:\TongHopKienThuc\TungShop\TungShop.Model\obj\Debug\TungShop.Model.csprojAssemblyReference.cache

@@ -3,4 +3,3 @@ D:\TongHopKienThuc\TungShop\TungShop.Common\bin\Debug\TungShop.Common.pdb
 D:\TongHopKienThuc\TungShop\TungShop.Common\obj\Debug\TungShop.Common.csproj.CoreCompileInputs.cache
 D:\TongHopKienThuc\TungShop\TungShop.Common\obj\Debug\TungShop.Common.dll
 D:\TongHopKienThuc\TungShop\TungShop.Common\obj\Debug\TungShop.Common.pdb
-D:\TongHopKienThuc\TungShop\TungShop.Common\obj\Debug\TungShop.Common.csprojAssemblyReference.cache
